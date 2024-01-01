@@ -8,19 +8,12 @@
   
 
 |Package|Version|
-
 |---|---|
-
 |Python|>=3.8|
-
 |Numpy|>=1.19.4|
-
 |Pandas|>=1.0.5|
-
 |Tensorflow|>=2.4.0|
-
 |Sklearn|>=0.23.1|
-
 |Tiles|>=1.0.4|
 
   
