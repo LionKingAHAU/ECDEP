@@ -3,7 +3,7 @@
 
   
 
-> If you want to use ECDEP model, you might need to equip with the env below：
+> If you want to use the ECDEP model, you might need to be equipped with the env below：
 
   
 
@@ -39,13 +39,13 @@ The model's workflow involves several steps:
   
 
 > Our project is comprised of five main files.
-> Please make sure that **data** file and **ECDEP** file are in the same directory. 
-> Then, **enter the ECDEP directory and Run the commands as follows step by step** .
-> We have provided a demo of yeast(Krogan) in Dynamic Network Demo directory, you can directly run the scripts.
+> Please make sure that the **data** file and the **ECDEP** file are in the same directory. 
+> Then, **enter the ECDEP directory and Run the commands as follows step by step**.
+> We have provided a demo of yeast(Krogan) in the Dynamic Network Demo directory, you can directly run the scripts.
 
   
 
-1. DPPIN.py: this script helps to build dynamic PPIN.
+1. DPPIN.py: This script helps to build dynamic PPIN.
 
   
 
@@ -57,7 +57,7 @@ python DPPIN.py
 
   
 
-2. streaming-step2.py: this script helps to change DPPIN into a interaction streaming source.
+2. streaming-step2.py: This script helps to change DPPIN into an interaction streaming source.
 
 ```python
 
@@ -65,7 +65,7 @@ python streaming-step2.py
 
 ```
 
-3. getEtiles-step3.py: this script helps to use TILES to generate communities.
+3. getEtiles-step3.py: This script helps to use TILES to generate communities.
 
 ```python
 
@@ -73,7 +73,7 @@ python getEtiles-step3.py
 
 ```
 
-4. prioritization-step4.py: this script helps to use SVM-RFE to select informative communities.
+4. prioritization-step4.py: This script helps to use SVM-RFE to select informative communities.
 
 ```python
 
@@ -81,7 +81,7 @@ python prioritization-step4.py
 
 ```
 
-5. ECDEP-step5.py: this script uses deep learning model to predict essential proteins.
+5. ECDEP-step5.py: this script uses a deep learning model to predict essential proteins.
 
 ```python
 
@@ -94,12 +94,15 @@ python ECDEP-step5.py
 
   
 
-All dataset used in our paper and test data are stored in [zenodo](https://zenodo.org/records/8363124).
+All datasets used in our paper and test data are stored in [zenodo](https://zenodo.org/records/8363124).
 
   
 
-> In the `data\Dynamic Network Demo` dir, we provide the data of krogan for a demo, you can direct run the script with it.
+> In the `data\Dynamic Network Demo` dir, we provide the data of Krogan for a demo, you can directly run the script with it.
 
 
 > In the `data\Data For Test` dir, we provide other species data used in our paper. We have retrieved the community features. 
   
+# 4. Citing Information
+
+If you find our work useful, please cite Ye, C., Wu, Q., Chen, S. et al. ECDEP: identifying essential proteins based on evolutionary community discovery and subcellular localization. BMC Genomics 25, 117 (2024). https://doi.org/10.1186/s12864-024-10019-5
