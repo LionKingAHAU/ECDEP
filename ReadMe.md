@@ -51,7 +51,7 @@ The model's workflow involves several steps:
 
 ```python
 
-python DPPIN.py
+python DPPIN-step1.py
 
 ```
 
